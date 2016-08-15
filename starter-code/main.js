@@ -10,7 +10,7 @@ function createBoard() {
     cardElement.className = 'card';
     cardElement.setAttribute('data-card', cards[i]);
     cardElement.addEventListener('click', isTwoCards);
-
+    
     board.appendChild(cardElement);
     board.appendChild(cardElement);
   }
